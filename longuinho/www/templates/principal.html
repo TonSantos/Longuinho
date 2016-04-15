@@ -4,9 +4,9 @@
   
     <ion-list>
       <ion-item class="item item-thumbnail-left" ng-repeat="objeto in principal" href="#/app/principal/{{objeto.id}}">
-		      <img src="../img/ionic.png">
+		      <img src={{objeto.imag}}>
 		      <h2>{{objeto.title}}</h2>
-		      <p>{{objeto.id}}</p>
+		      <p>{{objeto.tipo}}</p>
         <!-- {{objeto.title}} -->
       </ion-item>
     </ion-list>
